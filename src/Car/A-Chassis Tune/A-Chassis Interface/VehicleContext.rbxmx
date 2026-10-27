@@ -1,0 +1,2241 @@
+<roblox version="4"><Item class="InputContext" referent="10">
+          <Properties>
+            <string name="Name">VehicleContext</string>
+            <BinaryString name="AttributesSerialize" />
+            <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+            <bool name="Enabled">true</bool>
+            <int name="Priority">2000</int>
+            <bool name="DefinesCapabilities">false</bool>
+            <bool name="Sink">false</bool>
+            <int64 name="SourceAssetId">-1</int64>
+            <BinaryString name="Tags" />
+          </Properties>
+          <Item class="InputAction" referent="11">
+            <Properties>
+              <string name="Name">ABSAction</string>
+              <BinaryString name="AttributesSerialize" />
+              <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+              <string name="DisplayName" />
+              <bool name="Enabled">true</bool>
+              <bool name="DefinesCapabilities">false</bool>
+              <int64 name="SourceAssetId">-1</int64>
+              <BinaryString name="Tags" />
+              <token name="Type">0</token>
+            </Properties>
+            <Item class="InputBinding" referent="12">
+              <Properties>
+                <string name="Name">ScriptableBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">1</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="13">
+              <Properties>
+                <string name="Name">GamepadBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">1013</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="14">
+              <Properties>
+                <string name="Name">KeyboardBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">121</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+          </Item>
+          <Item class="InputAction" referent="15">
+            <Properties>
+              <string name="Name">IgnitionAction</string>
+              <BinaryString name="AttributesSerialize" />
+              <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+              <string name="DisplayName" />
+              <bool name="Enabled">true</bool>
+              <bool name="DefinesCapabilities">false</bool>
+              <int64 name="SourceAssetId">-1</int64>
+              <BinaryString name="Tags" />
+              <token name="Type">0</token>
+            </Properties>
+            <Item class="InputBinding" referent="16">
+              <Properties>
+                <string name="Name">KeyboardBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">102</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="17">
+              <Properties>
+                <string name="Name">GamepadBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">1003</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="18">
+              <Properties>
+                <string name="Name">ScriptableBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">1</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+          </Item>
+          <Item class="InputAction" referent="19">
+            <Properties>
+              <string name="Name">CSAction</string>
+              <BinaryString name="AttributesSerialize" />
+              <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+              <string name="DisplayName" />
+              <bool name="Enabled">true</bool>
+              <bool name="DefinesCapabilities">false</bool>
+              <int64 name="SourceAssetId">-1</int64>
+              <BinaryString name="Tags" />
+              <token name="Type">0</token>
+            </Properties>
+            <Item class="InputBinding" referent="20">
+              <Properties>
+                <string name="Name">ScriptableBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">1</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="21">
+              <Properties>
+                <string name="Name">GamepadBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">1012</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="22">
+              <Properties>
+                <string name="Name">KeyboardBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">117</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+          </Item>
+          <Item class="InputAction" referent="23">
+            <Properties>
+              <string name="Name">FlipAction</string>
+              <BinaryString name="AttributesSerialize" />
+              <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+              <string name="DisplayName" />
+              <bool name="Enabled">true</bool>
+              <bool name="DefinesCapabilities">false</bool>
+              <int64 name="SourceAssetId">-1</int64>
+              <BinaryString name="Tags" />
+              <token name="Type">0</token>
+            </Properties>
+            <Item class="InputBinding" referent="24">
+              <Properties>
+                <string name="Name">KeyboardBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="25">
+              <Properties>
+                <string name="Name">ScriptableBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">1</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="26">
+              <Properties>
+                <string name="Name">GamepadBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+          </Item>
+          <Item class="InputAction" referent="27">
+            <Properties>
+              <string name="Name">ClutchAction</string>
+              <BinaryString name="AttributesSerialize" />
+              <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+              <string name="DisplayName" />
+              <bool name="Enabled">true</bool>
+              <bool name="DefinesCapabilities">false</bool>
+              <int64 name="SourceAssetId">-1</int64>
+              <BinaryString name="Tags" />
+              <token name="Type">0</token>
+            </Properties>
+            <Item class="InputBinding" referent="28">
+              <Properties>
+                <string name="Name">KeyboardBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">304</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="29">
+              <Properties>
+                <string name="Name">ScriptableBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">1</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="30">
+              <Properties>
+                <string name="Name">GamepadBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">1004</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+          </Item>
+          <Item class="InputAction" referent="31">
+            <Properties>
+              <string name="Name">MouseSteerAction</string>
+              <BinaryString name="AttributesSerialize" />
+              <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+              <string name="DisplayName" />
+              <bool name="Enabled">true</bool>
+              <bool name="DefinesCapabilities">false</bool>
+              <int64 name="SourceAssetId">-1</int64>
+              <BinaryString name="Tags" />
+              <token name="Type">0</token>
+            </Properties>
+            <Item class="InputBinding" referent="32">
+              <Properties>
+                <string name="Name">ScriptableBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">1</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="33">
+              <Properties>
+                <string name="Name">KeyboardBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">114</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+          </Item>
+          <Item class="InputAction" referent="34">
+            <Properties>
+              <string name="Name">ESCAction</string>
+              <BinaryString name="AttributesSerialize" />
+              <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+              <string name="DisplayName" />
+              <bool name="Enabled">true</bool>
+              <bool name="DefinesCapabilities">false</bool>
+              <int64 name="SourceAssetId">-1</int64>
+              <BinaryString name="Tags" />
+              <token name="Type">0</token>
+            </Properties>
+            <Item class="InputBinding" referent="35">
+              <Properties>
+                <string name="Name">KeyboardBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">116</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="36">
+              <Properties>
+                <string name="Name">ScriptableBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">1</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="37">
+              <Properties>
+                <string name="Name">GamepadBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">1015</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+          </Item>
+          <Item class="InputAction" referent="38">
+            <Properties>
+              <string name="Name">SteerAction</string>
+              <BinaryString name="AttributesSerialize" />
+              <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+              <string name="DisplayName" />
+              <bool name="Enabled">true</bool>
+              <bool name="DefinesCapabilities">false</bool>
+              <int64 name="SourceAssetId">-1</int64>
+              <BinaryString name="Tags" />
+              <token name="Type">1</token>
+            </Properties>
+            <Item class="InputBinding" referent="39">
+              <Properties>
+                <string name="Name">KeyboardSecondaryBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">276</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">275</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="40">
+              <Properties>
+                <string name="Name">GamepadBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">1020</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">1021</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="41">
+              <Properties>
+                <string name="Name">ScriptableBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">1</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="42">
+              <Properties>
+                <string name="Name">KeyboardPrimaryBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">97</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">100</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+          </Item>
+          <Item class="InputAction" referent="43">
+            <Properties>
+              <string name="Name">ShiftUpAction</string>
+              <BinaryString name="AttributesSerialize" />
+              <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+              <string name="DisplayName" />
+              <bool name="Enabled">true</bool>
+              <bool name="DefinesCapabilities">false</bool>
+              <int64 name="SourceAssetId">-1</int64>
+              <BinaryString name="Tags" />
+              <token name="Type">0</token>
+            </Properties>
+            <Item class="InputBinding" referent="44">
+              <Properties>
+                <string name="Name">KeyboardBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">101</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="45">
+              <Properties>
+                <string name="Name">GamepadBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">1001</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="46">
+              <Properties>
+                <string name="Name">ScriptableBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">1</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+          </Item>
+          <Item class="InputAction" referent="47">
+            <Properties>
+              <string name="Name">ABS2Action</string>
+              <BinaryString name="AttributesSerialize" />
+              <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+              <string name="DisplayName" />
+              <bool name="Enabled">true</bool>
+              <bool name="DefinesCapabilities">false</bool>
+              <int64 name="SourceAssetId">-1</int64>
+              <BinaryString name="Tags" />
+              <token name="Type">0</token>
+            </Properties>
+            <Item class="InputBinding" referent="48">
+              <Properties>
+                <string name="Name">ScriptableBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">1</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="49">
+              <Properties>
+                <string name="Name">KeyboardBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">121</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="50">
+              <Properties>
+                <string name="Name">GamepadBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">1013</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+          </Item>
+          <Item class="InputAction" referent="51">
+            <Properties>
+              <string name="Name">BrakeAction</string>
+              <BinaryString name="AttributesSerialize" />
+              <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+              <string name="DisplayName" />
+              <bool name="Enabled">true</bool>
+              <bool name="DefinesCapabilities">false</bool>
+              <int64 name="SourceAssetId">-1</int64>
+              <BinaryString name="Tags" />
+              <token name="Type">1</token>
+            </Properties>
+            <Item class="InputBinding" referent="52">
+              <Properties>
+                <string name="Name">KeyboardSecondaryBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">274</token>
+                <token name="Left">276</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">275</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="53">
+              <Properties>
+                <string name="Name">GamepadBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">1007</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="54">
+              <Properties>
+                <string name="Name">KeyboardPrimaryBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">115</token>
+                <token name="Left">97</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">100</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="55">
+              <Properties>
+                <string name="Name">ScriptableBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">1</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+          </Item>
+          <Item class="InputAction" referent="56">
+            <Properties>
+              <string name="Name">ShiftDownAction</string>
+              <BinaryString name="AttributesSerialize" />
+              <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+              <string name="DisplayName" />
+              <bool name="Enabled">true</bool>
+              <bool name="DefinesCapabilities">false</bool>
+              <int64 name="SourceAssetId">-1</int64>
+              <BinaryString name="Tags" />
+              <token name="Type">0</token>
+            </Properties>
+            <Item class="InputBinding" referent="57">
+              <Properties>
+                <string name="Name">ScriptableBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">1</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="58">
+              <Properties>
+                <string name="Name">KeyboardBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">113</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="59">
+              <Properties>
+                <string name="Name">GamepadBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">1000</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+          </Item>
+          <Item class="InputAction" referent="60">
+            <Properties>
+              <string name="Name">ThrottleAction</string>
+              <BinaryString name="AttributesSerialize" />
+              <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+              <string name="DisplayName" />
+              <bool name="Enabled">true</bool>
+              <bool name="DefinesCapabilities">false</bool>
+              <int64 name="SourceAssetId">-1</int64>
+              <BinaryString name="Tags" />
+              <token name="Type">1</token>
+            </Properties>
+            <Item class="InputBinding" referent="61">
+              <Properties>
+                <string name="Name">KeyboardSecondaryBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">273</token>
+                <token name="Left">276</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">275</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="62">
+              <Properties>
+                <string name="Name">GamepadBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">1006</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="63">
+              <Properties>
+                <string name="Name">KeyboardPrimaryBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">119</token>
+                <token name="Left">97</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">100</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="64">
+              <Properties>
+                <string name="Name">ScriptableBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">1</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+          </Item>
+          <Item class="InputAction" referent="65">
+            <Properties>
+              <string name="Name">TransmissionAction</string>
+              <BinaryString name="AttributesSerialize" />
+              <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+              <string name="DisplayName" />
+              <bool name="Enabled">true</bool>
+              <bool name="DefinesCapabilities">false</bool>
+              <int64 name="SourceAssetId">-1</int64>
+              <BinaryString name="Tags" />
+              <token name="Type">0</token>
+            </Properties>
+            <Item class="InputBinding" referent="66">
+              <Properties>
+                <string name="Name">ScriptableBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">1</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="67">
+              <Properties>
+                <string name="Name">GamepadBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">1014</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="68">
+              <Properties>
+                <string name="Name">KeyboardBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">109</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+          </Item>
+          <Item class="InputAction" referent="69">
+            <Properties>
+              <string name="Name">HandbrakeAction</string>
+              <BinaryString name="AttributesSerialize" />
+              <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+              <string name="DisplayName" />
+              <bool name="Enabled">true</bool>
+              <bool name="DefinesCapabilities">false</bool>
+              <int64 name="SourceAssetId">-1</int64>
+              <BinaryString name="Tags" />
+              <token name="Type">0</token>
+            </Properties>
+            <Item class="InputBinding" referent="70">
+              <Properties>
+                <string name="Name">KeyboardBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">112</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="71">
+              <Properties>
+                <string name="Name">GamepadBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">1002</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+            <Item class="InputBinding" referent="72">
+              <Properties>
+                <string name="Name">ScriptableBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">0</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">1</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+          </Item>
+          <Item class="InputAction" referent="73">
+            <Properties>
+              <string name="Name">ViewportAction</string>
+              <BinaryString name="AttributesSerialize" />
+              <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+              <string name="DisplayName" />
+              <bool name="Enabled">true</bool>
+              <bool name="DefinesCapabilities">false</bool>
+              <int64 name="SourceAssetId">-1</int64>
+              <BinaryString name="Tags" />
+              <token name="Type">4</token>
+            </Properties>
+            <Item class="InputBinding" referent="74">
+              <Properties>
+                <string name="Name">MouseBinding</string>
+                <BinaryString name="AttributesSerialize" />
+                <token name="Backward">0</token>
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="ClampMagnitudeToOne">true</bool>
+                <Content name="DisplayImage">
+                  <null>
+                  </null>
+                </Content>
+                <string name="DisplayName" />
+                <token name="Down">0</token>
+                <token name="Forward">0</token>
+                <token name="KeyCode">1033</token>
+                <token name="Left">0</token>
+                <int name="PointerIndex">0</int>
+                <float name="PressedThreshold">0.5</float>
+                <token name="PrimaryModifier">0</token>
+                <float name="ReleasedThreshold">0.2</float>
+                <float name="ResponseCurve">1</float>
+                <token name="Right">0</token>
+                <bool name="DefinesCapabilities">false</bool>
+                <float name="Scale">1</float>
+                <token name="SecondaryModifier">0</token>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+                <token name="Type">0</token>
+                <Ref name="UIButton">null</Ref>
+                <Ref name="UIModifier">null</Ref>
+                <token name="Up">0</token>
+                <Vector2 name="Vector2Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                </Vector2>
+                <Vector3 name="Vector3Scale">
+                  <X>1</X>
+                  <Y>1</Y>
+                  <Z>1</Z>
+                </Vector3>
+              </Properties>
+            </Item>
+          </Item>
+        </Item>
+        <SharedStrings>
+    <SharedString md5="rxNJufX5oaagQE3qNtzJSQ==" />
+  </SharedStrings>
+</roblox>

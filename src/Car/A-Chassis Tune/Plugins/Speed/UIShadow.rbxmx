@@ -1,0 +1,41 @@
+<roblox version="4"><Item class="UIShadow" referent="131">
+            <Properties>
+              <string name="Name">UIShadow</string>
+              <BinaryString name="AttributesSerialize" />
+              <UDim name="BlurRadius">
+                <S>1</S>
+                <O>0</O>
+              </UDim>
+              <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+              <Color3 name="Color">
+                <R>0</R>
+                <G>0</G>
+                <B>0</B>
+              </Color3>
+              <bool name="Enabled">true</bool>
+              <bool name="Inset">false</bool>
+              <token name="Mode">0</token>
+              <UDim2 name="Offset">
+                <XS>0</XS>
+                <XO>0</XO>
+                <YS>0</YS>
+                <YO>0</YO>
+              </UDim2>
+              <bool name="DefinesCapabilities">false</bool>
+              <bool name="ShowBehindParent">true</bool>
+              <int64 name="SourceAssetId">-1</int64>
+              <UDim2 name="Spread">
+                <XS>0</XS>
+                <XO>0</XO>
+                <YS>0</YS>
+                <YO>0</YO>
+              </UDim2>
+              <BinaryString name="Tags" />
+              <float name="Transparency">0.8</float>
+              <int name="ZIndex">-1</int>
+            </Properties>
+          </Item>
+          <SharedStrings>
+    <SharedString md5="rxNJufX5oaagQE3qNtzJSQ==" />
+  </SharedStrings>
+</roblox>

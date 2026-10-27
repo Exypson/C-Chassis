@@ -1,0 +1,90 @@
+{
+  "className": "Frame",
+  "properties": {
+    "Active": false,
+    "AnchorPoint": {
+      "Vector2": [
+        1.0,
+        1.0
+      ]
+    },
+    "AutoLocalize": true,
+    "AutomaticSize": {
+      "Enum": 0
+    },
+    "BackgroundColor3": {
+      "Color3": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "BackgroundTransparency": 1.0,
+    "BorderColor3": {
+      "Color3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "BorderMode": {
+      "Enum": 0
+    },
+    "BorderSizePixel": 0,
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "Position": {
+      "UDim2": [
+        [
+          1.0,
+          0
+        ],
+        [
+          1.04,
+          0
+        ]
+      ]
+    },
+    "Rotation": 0.0,
+    "Selectable": false,
+    "SelectionBehaviorDown": {
+      "Enum": 0
+    },
+    "SelectionBehaviorLeft": {
+      "Enum": 0
+    },
+    "SelectionBehaviorRight": {
+      "Enum": 0
+    },
+    "SelectionBehaviorUp": {
+      "Enum": 0
+    },
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Sink": {
+      "Enum": 0
+    },
+    "Size": {
+      "UDim2": [
+        [
+          0.35,
+          0
+        ],
+        [
+          0.35,
+          0
+        ]
+      ]
+    },
+    "SizeConstraint": {
+      "Enum": 2
+    },
+    "Style": {
+      "Enum": 0
+    },
+    "Visible": true,
+    "ZIndex": 1
+  }
+}

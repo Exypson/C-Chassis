@@ -1,51 +1,103 @@
 <div align="center">
 
-<img
-  src="https://raw.githubusercontent.com/VanillaEdge/B-Chassis/main/Assets/b-chassis-thumbnail.png"
-  alt="B-Chassis"
-  width="1000">
-  
-# B-Chassis
-  
-<p align="center">This is a fork of A-Chassis focused on simplifying tuning for less advanced users.</p>
-<p align="center">
-  <a href="https://github.com/VanillaEdge/B-Chassis/stargazers"><img src="https://img.shields.io/github/stars/VanillaEdge/B-Chassis?style=flat-square" alt="Stars"></a>
-  <a href="https://github.com/VanillaEdge/B-Chassis/forks"><img src="https://img.shields.io/github/forks/VanillaEdge/B-Chassis?style=flat-square" alt="Forks"></a>
-  <a href="https://github.com/VanillaEdge/B-Chassis/issues"><img src="https://img.shields.io/github/issues/VanillaEdge/B-Chassis?style=flat-square" alt="Issues"></a>
-  <a href="https://github.com/VanillaEdge/B-Chassis/watchers"><img src="https://img.shields.io/github/watchers/VanillaEdge/B-Chassis?style=flat-square" alt="Watchers"></a>
+# C-Chassis
+
+<p>A fork of B-Chassis that keeps A-Chassis plugin support and adds live tuning, presets, driving feel and a server-side watchdog.</p>
+
+<p>
   <a href="https://opensource.org/licenses/MPL-2.0"><img src="https://img.shields.io/badge/License-MPL_2.0-blue.svg?style=flat-square" alt="License: MPL-2.0"></a>
+  <img src="https://img.shields.io/badge/Rojo-7.7-orange?style=flat-square" alt="Rojo 7.7">
 </p>
 
 </div>
 
-## 🔗 Related Projects
+## 🔗 Lineage
 
-If you want to work from a better codebase, see [Server Authoritive Vehicle](https://github.com/VanillaEdge/Server-Authoritive-Vehicle). 
-It is a separate chassis built from the ground up, safe from A-Chassis’s 10+ years of scalability debt.
+C-Chassis is forked from [B-Chassis](https://github.com/VanillaEdge/B-Chassis) 1.0.1, which is forked from
+[A-Chassis](https://github.com/lisphm/A-Chassis) 1.7.2. Instance names (`A-Chassis Tune`, `A-Chassis Interface`,
+`Values`) are kept on purpose, so existing A-Chassis plugins keep working.
 
-B-Chassis is forked from the original [A-Chassis](https://github.com/lisphm/A-Chassis) project, starting from version 1.7.2.
+## Features
 
-## 🚀 Installation
+-  **Everything B-Chassis does:** same physics, same Tune values, same plugin support, Input Action System controls.
+-  **Modular drive code:** the 1,400-line `Drive` script is split into `Engine`, `Gearbox`, `Steering`,
+  `Differential`, `Assists`, `Wheels`, `Input` and `Flip`, sharing one `State` table.
+-  **Presets:** set `Tune.Preset` to `"Grip"`, `"Drift"`, `"Offroad"` or `"Truck"`. A preset only overwrites the
+  keys it lists; every other Tune value stays yours.
+-  **Tune validation:** a Tune that can't drive (ShiftRPM above Redline, no Neutral gear, unknown `Config`...) stops
+  the car at startup with every problem listed, instead of failing silently mid-drive.
+-  **Live tuner:** press **T** while driving. Adjust torque, steering, springs, differential and brakes; the
+  torque/horsepower graph redraws as you go; **Print** writes your changes to the Output window, ready to paste.
+-  **Feel layer:** tyre smoke and skid marks driven by real tread slip, speed-based field of view, camera kick on
+  crashes.
+-  **Watchdog:** while a car is driven, the server checks it against the top speed its gearing allows. Speed hacks and
+  teleports reset the car and eject the driver, with a log line.
+
+## Installation
+
+**From a release:**
+
+1. Download `C-Chassis.rbxm` from the Releases page.
+2. Drag it into a Roblox Studio place and position it.
+
+**From source** (needs [Rokit](https://github.com/rojo-rbx/rokit)):
 
 ```bash
-Go to the Releases page and download the latest RBXM file.
-Drop the downloaded release into a Roblox Studio place.
+rokit install
+rojo build model.project.json -o C-Chassis.rbxm
 ```
 
-## ✨ Features
+To work on the chassis with the showcase place (a baseplate and a car spawner):
 
-- ✅ Significantly reduced code.
-- ✅ Significantly reduced tuning values.
-- ✅ Most functionality from A-Chassis is kept.
-- ✅ Supports most existing A-Chassis plugins.
-- ✅ Uses newer Roblox features (e.g. [IAS](https://create.roblox.com/docs/input/input-action-system)).
+```bash
+rojo build -o C-Chassis.rbxlx
+rojo serve
+```
 
-## 🤝 Contributing
+Open `C-Chassis.rbxlx` in Studio and connect the Rojo plugin.
 
-Feel free to open a PR if you find more legacy bloat that can be cut. The goal is to keep this as lean as possible.
+## Tuning
 
-## 📄 License
+All values live in the `A-Chassis Tune` module, with a comment on each.
 
-Distributed under the MPL-2.0 License. See `LICENSE` for more information.
+- Pick a starting point with `Tune.Preset`.
+- Drive, press **T**, adjust and **Print**.
+- Paste the printed lines into the Tune.
 
+The live tuner leaves gearing, redline and the speed limit out on purpose. The server's Watchdog computes top speed from
+the Tune it loaded, so change those values in the Tune module itself.
 
+## Project layout
+
+```
+src/Car/                       the car: build it as a model, or Rojo maps it to ServerStorage.C-Chassis
+  A-Chassis Tune/              Tune config + Presets, Validate, Watchdog
+    Initialize/                server: builds the constraints, hands the car to the driver
+    A-Chassis Interface/Drive/ client: the drive loop, one module per system
+    Plugins/                   Feel, Tuner and the B-Chassis plugins
+  Body, Wheels, DriveSeat, Misc    geometry (.rbxmx)
+src/server/                    showcase spawner
+```
+
+## Plugins
+
+Drop a plugin into `A-Chassis Tune/Plugins`, exactly as with A-Chassis.
+
+- **Reading state:** plugins read the `Values` folder, which C-Chassis keeps in sync.
+- **Server code:** a plugin that needs the server can ship a `RemoteEvent` with a `Script` inside it. Initialize moves
+  the remote onto the car and enables the script.
+
+## Known limits
+
+- Physics runs on the driver's client, like A-Chassis and B-Chassis. The Watchdog catches impossible motion, not every
+  exploit.
+- Smoke, skid marks and live-tuner changes are only visible to the driver.
+
+## Credits
+
+- A-Chassis by its original authors and contributors: [lisphm/A-Chassis](https://github.com/lisphm/A-Chassis).
+- B-Chassis by VanillaEdge: [VanillaEdge/B-Chassis](https://github.com/VanillaEdge/B-Chassis).
+
+## License
+
+Distributed under the MPL-2.0 License, inherited from A-Chassis and B-Chassis. See `LICENSE`.

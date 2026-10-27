@@ -1,0 +1,6 @@
+{
+  "name": "C-Chassis",
+  "tree": {
+    "$path": "src/Car"
+  }
+}

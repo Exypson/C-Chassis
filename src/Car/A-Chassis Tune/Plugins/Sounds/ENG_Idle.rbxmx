@@ -1,0 +1,59 @@
+<roblox version="4"><Item class="Sound" referent="153">
+            <Properties>
+              <string name="Name">ENG_Idle</string>
+              <bool name="AcousticSimulationEnabled">true</bool>
+              <BinaryString name="AttributesSerialize">CgAAABEAAABCYXNlUGxheWJhY2tTcGVlZAYAAAAAAADwPwoAAABCYXNlVm9sdW1lBgAAAAAAAPA/CAAAAFJhbmdlRW5kBgAAAAAAwJJACgAAAFJhbmdlU3RhcnQGAAAAAAAAAAAUAAAAUmVkbGluZVBsYXliYWNrU3BlZWQGAAAAAAAA8D8NAAAAUmVkbGluZVZvbHVtZQYAAAAAAAAAAAsAAABTb3VuZFBhcmVudAIHAAAARXhoYXVzdA4AAABUaHJvdHRsZVZvbHVtZQYAAAAAAADwvw0AAABUcmFuc2l0aW9uRW5kBgAAAAAAAGlADwAAAFRyYW5zaXRpb25TdGFydAYAAAAAAABZQA==</BinaryString>
+              <Content name="AudioContent">
+                <uri>rbxassetid://5226685480</uri>
+              </Content>
+              <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+              <NumberRange name="LoopRegion">0 60000 </NumberRange>
+              <bool name="Looped">true</bool>
+              <bool name="PlayOnRemove">false</bool>
+              <NumberRange name="PlaybackRegion">0 60000 </NumberRange>
+              <bool name="PlaybackRegionsEnabled">true</bool>
+              <float name="PlaybackSpeed">1</float>
+              <bool name="Playing">false</bool>
+              <float name="xmlRead_MaxDistance_3">100</float>
+              <float name="EmitterSize">10</float>
+              <token name="RollOffMode">3</token>
+              <bool name="DefinesCapabilities">false</bool>
+              <Ref name="SoundGroup">null</Ref>
+              <int64 name="SourceAssetId">-1</int64>
+              <BinaryString name="Tags" />
+              <double name="TimePosition">0</double>
+              <float name="Volume">0.5</float>
+            </Properties>
+            <Item class="DistortionSoundEffect" referent="154">
+              <Properties>
+                <string name="Name">OffDistortion</string>
+                <BinaryString name="AttributesSerialize" />
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="Enabled">false</bool>
+                <float name="Level">0</float>
+                <int name="Priority">0</int>
+                <bool name="DefinesCapabilities">false</bool>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+              </Properties>
+            </Item>
+            <Item class="EqualizerSoundEffect" referent="155">
+              <Properties>
+                <string name="Name">OffEQ</string>
+                <BinaryString name="AttributesSerialize" />
+                <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+                <bool name="Enabled">false</bool>
+                <float name="HighGain">0</float>
+                <float name="LowGain">0</float>
+                <float name="MidGain">0</float>
+                <int name="Priority">0</int>
+                <bool name="DefinesCapabilities">false</bool>
+                <int64 name="SourceAssetId">-1</int64>
+                <BinaryString name="Tags" />
+              </Properties>
+            </Item>
+          </Item>
+          <SharedStrings>
+    <SharedString md5="rxNJufX5oaagQE3qNtzJSQ==" />
+  </SharedStrings>
+</roblox>

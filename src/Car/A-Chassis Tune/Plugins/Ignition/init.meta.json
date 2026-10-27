@@ -1,0 +1,138 @@
+{
+  "className": "TextButton",
+  "properties": {
+    "Active": true,
+    "AnchorPoint": {
+      "Vector2": [
+        0.5,
+        0.5
+      ]
+    },
+    "AutoButtonColor": true,
+    "AutoLocalize": true,
+    "AutomaticSize": {
+      "Enum": 0
+    },
+    "BackgroundColor3": {
+      "Color3": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "BackgroundTransparency": 1.0,
+    "BorderColor3": {
+      "Color3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "BorderMode": {
+      "Enum": 0
+    },
+    "BorderSizePixel": 0,
+    "ClipsDescendants": false,
+    "Draggable": false,
+    "FontFace": {
+      "Font": {
+        "family": "rbxasset://fonts/families/SourceSansPro.json",
+        "weight": "Regular",
+        "style": "Normal"
+      }
+    },
+    "Interactable": true,
+    "LayoutOrder": 0,
+    "LineHeight": 1.0,
+    "LocalizationMatchIdentifier": "",
+    "LocalizationMatchedSourceText": "",
+    "MaxVisibleGraphemes": -1,
+    "Modal": false,
+    "OpenTypeFeatures": "",
+    "Position": {
+      "UDim2": [
+        [
+          0.5,
+          0
+        ],
+        [
+          0.5,
+          0
+        ]
+      ]
+    },
+    "RichText": true,
+    "Rotation": 0.0,
+    "Selectable": true,
+    "Selected": false,
+    "SelectionBehaviorDown": {
+      "Enum": 0
+    },
+    "SelectionBehaviorLeft": {
+      "Enum": 0
+    },
+    "SelectionBehaviorRight": {
+      "Enum": 0
+    },
+    "SelectionBehaviorUp": {
+      "Enum": 0
+    },
+    "SelectionGroup": false,
+    "SelectionOrder": 0,
+    "Sink": {
+      "Enum": 1
+    },
+    "Size": {
+      "UDim2": [
+        [
+          1.0,
+          0
+        ],
+        [
+          0.05,
+          0
+        ]
+      ]
+    },
+    "SizeConstraint": {
+      "Enum": 0
+    },
+    "Style": {
+      "Enum": 0
+    },
+    "Text": "Hold <i><stroke color='#000000' thickness='2'><font weight='900'>F</font></stroke></i> to turn on.",
+    "TextColor3": {
+      "Color3": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "TextDirection": {
+      "Enum": 0
+    },
+    "TextScaled": true,
+    "TextSize": 14.0,
+    "TextStrokeColor3": {
+      "Color3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "TextStrokeTransparency": 0.9,
+    "TextTransparency": 0.0,
+    "TextTruncate": {
+      "Enum": 0
+    },
+    "TextWrapped": true,
+    "TextXAlignment": {
+      "Enum": 2
+    },
+    "TextYAlignment": {
+      "Enum": 1
+    },
+    "Visible": true,
+    "ZIndex": 1
+  }
+}

@@ -1,0 +1,31 @@
+<roblox version="4"><Item class="Sound" referent="152">
+            <Properties>
+              <string name="Name">SUP_Supercharger</string>
+              <bool name="AcousticSimulationEnabled">true</bool>
+              <BinaryString name="AttributesSerialize">BAAAABEAAABCYXNlUGxheWJhY2tTcGVlZAYAAAAAAADwPxUAAABQbGF5YmFja1NwZWVkSW5jcmVhc2UGmpmZmZmZqT8LAAAAU291bmRQYXJlbnQCBgAAAEVuZ2luZQ4AAABWb2x1bWVJbmNyZWFzZQZ7FK5H4XqEPw==</BinaryString>
+              <Content name="AudioContent">
+                <uri>rbxassetid://404779487</uri>
+              </Content>
+              <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+              <NumberRange name="LoopRegion">0 60000 </NumberRange>
+              <bool name="Looped">true</bool>
+              <bool name="PlayOnRemove">false</bool>
+              <NumberRange name="PlaybackRegion">0 60000 </NumberRange>
+              <bool name="PlaybackRegionsEnabled">true</bool>
+              <float name="PlaybackSpeed">1</float>
+              <bool name="Playing">false</bool>
+              <float name="xmlRead_MaxDistance_3">100</float>
+              <float name="EmitterSize">10</float>
+              <token name="RollOffMode">3</token>
+              <bool name="DefinesCapabilities">false</bool>
+              <Ref name="SoundGroup">null</Ref>
+              <int64 name="SourceAssetId">-1</int64>
+              <BinaryString name="Tags" />
+              <double name="TimePosition">0</double>
+              <float name="Volume">0.5</float>
+            </Properties>
+          </Item>
+          <SharedStrings>
+    <SharedString md5="rxNJufX5oaagQE3qNtzJSQ==" />
+  </SharedStrings>
+</roblox>

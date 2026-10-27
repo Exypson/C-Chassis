@@ -1,0 +1,13 @@
+{
+  "className": "Model",
+  "properties": {
+    "LevelOfDetail": {
+      "Enum": 0
+    },
+    "ModelStreamingMode": {
+      "Enum": 4
+    },
+    "NeedsPivotMigration": false,
+    "ScaleFactor": 1.0
+  }
+}
